@@ -1,0 +1,621 @@
+body{
+  margin:0px;
+  padding:0px;
+  font-family: 'Grenze Gotisch', cursive;
+  background:#1f1f1f;
+  overflow-x: hidden;
+}
+
+.infostrip{
+color:white;
+background:black;
+z-index: 99999;
+font-family:sans-serif;
+border-bottom: 0.01rem solid #4BB871;
+}
+
+.info-txts{
+  font-size: 14px;
+  color:white;
+  font-family: 'Dosis', sans-serif;
+  padding: 5px 0px 5px;
+}
+
+.navbar{
+background-color:black;
+color:white;
+}
+
+.links{
+font-family: 'Goldman', cursive;
+}
+
+
+.info-strip-icons{
+margin-right:10px;
+}
+
+.brand-first-letters{
+font-size: 3rem;
+margin-left:5px;
+}
+
+.brand-remain-letter{
+  margin-left:1px;
+  color:#4BB871;
+  font-size:20px;
+}
+
+.navbar a{
+  text-decoration: none;
+  color:white;
+  position: relative;
+}
+
+.logo-realtors{
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  margin-left:5px;
+}
+
+.tagline{
+font-size: 12px;
+font-family: sans-serif;
+margin-left: 10px;
+}
+
+.navbar-nav{
+position: absolute;
+right:50px;
+font-size: 1.3rem;
+font-family: 'Oswald', sans-serif;
+}
+
+
+.menu-btn{
+right:2px;
+}
+
+.line {
+  fill: none;
+  stroke: #4BB871;
+  stroke-width: 6;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.line1 {
+  stroke-dasharray: 60 207;
+  stroke-width: 10;
+}
+.line2 {
+  stroke-dasharray: 60 60;
+  stroke-width: 10;
+}
+.line3 {
+  stroke-dasharray: 60 207;
+  stroke-width: 10;
+}
+.opened .line1 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 8;
+}
+.opened .line2 {
+  stroke-dasharray: 1 60;
+  stroke-dashoffset: -30;
+  stroke-width: 8;
+}
+.opened .line3 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 8;
+}
+
+
+.side-menu-icons{
+color:white;
+}
+
+
+.accordion-main-headings{
+  margin-left: 70px;
+  display: inline;
+  color:white;
+
+}
+
+.card-body span{
+margin-left: 50px;
+color:white;
+background: #1f1f1f;
+}
+
+.side-nav-child-elements{
+  background: #1f1f1f;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 45%; /* 100% Full-height */
+  width: 50px; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Stay on top */
+  top: 25%; /* Stay at the top */
+  right: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 40px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  overflow-y:hidden;
+  border-radius:10px 0px 0px 10px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+
+.carousel-inner{
+  height:95vh;
+  width:100%;
+
+}
+
+.carousel-inner img{
+  filter: brightness(70%);
+  height: 95vh;
+  width:100vw;
+}
+
+
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#closeb{
+right:10px;
+top:2px;
+position: absolute;
+cursor: pointer;
+color:#111;
+}
+
+
+.accordion, .card {
+background:#111;
+color:white;
+font-family:sans-serif;
+}
+
+.company-intro{
+background:black;
+}
+
+.div-headings{
+  font-weight:600;
+  font-size: 3rem;
+  text-align: center;
+  padding:50px;
+  color: #4BB871;
+}
+
+.explainations{
+  text-align: center;
+  color:white;
+  font-weight:500;
+  font-family: 'Anton', sans-serif;
+  font-size:1.1rem;
+  word-spacing: 3px;
+}
+
+.owner-img{
+margin-top:10px;
+height:450px;
+width:400px;
+border-radius: 15px;
+}
+
+.owner-role{
+font-family: 'Amiri', serif;
+}
+
+img{
+cursor: pointer;
+}
+
+
+.sign{
+  margin-top:-80px;
+  height:250px;
+  width:500px;
+  transform: rotate(-10deg);
+}
+
+.services-headings{
+color:white;
+font-family: 'Federant', cursive;
+text-align:center;
+font-size: 45px;
+margin:50px 0px 30px;
+border-bottom:3px solid #4BB871;
+padding:20px;
+}
+
+.shot-note{
+font-family: 'Oswald', sans-serif;
+color:white;
+font-size: 12px;
+text-align: left;
+}
+
+.img-btm-txts{
+  color:white;
+  font-size: 18px;
+  font-family: 'Peddana', serif;
+}
+
+.service-img-divs{
+margin:10px;
+}
+
+.services-imgs{
+  width:100%;
+  height:100%;
+  border:4px solid #2e2e2e;
+}
+
+.service-desc{
+text-align: center;
+color:white;
+font-size:20px;
+padding-left:20px;
+padding-right:20px;
+font-family: 'Dosis', sans-serif;
+}
+
+.service-desc-box{
+  margin-top:20px;
+  border-left:2px solid #098bd6;
+  border-right:2px solid #098bd6;
+}
+
+.service-main-blocks{
+   margin-top:100px;
+ }
+
+.enq-btns{
+  color:white;
+  font-size:15px;
+  padding:3px 50px;
+  cursor: pointer;
+  background:none;
+  font-weight:500;
+  font-family: sans-serif;
+  border:3px solid #098bd6;
+}
+
+.enq-btns:hover{
+
+  color:white;
+  font-size:15px;
+  padding:3px 50px;
+  cursor: pointer;
+  background:none;
+  font-weight:500;
+  font-family: sans-serif;
+  border:3px solid #4BB871;
+}
+
+.table-border{
+border:4px solid white;
+}
+
+.tr-border{
+border:3px solid #393939;
+}
+.th-border{
+border:3px solid White;
+font-family: 'Libre Baskerville', serif;
+color:white'
+}
+.td-border{
+border:2px solid #393939;
+font-family: 'Raleway', sans-serif;
+color:white;
+font-weight:500;
+}
+
+
+.events-container{
+background: black;
+color:white;
+margin-top:-16px;
+}
+
+.events-div-blocks{
+  border:2px solid #4BB871;
+  margin:10px 10px;
+  padding:10px 20px;
+}
+
+
+
+#event-tab-pills{
+font-size:25px;
+
+}
+
+
+
+#v-pills-tabContent{
+border:6px solid #111;
+}
+
+.event-imgs{
+border:4px solid #2e2e2e;
+display: block;
+}
+
+.event-section-heading{
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 35px;
+margin-bottom:30px;
+}
+
+.events-alert-btns {
+border:2px solid #098bd6;
+color:white;
+}
+
+.events-alert-btns:hover {
+border:2px solid #4BB871;
+color:white;
+}
+
+
+.events-title{
+display: inline;
+font-size: 35px;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.event-date{
+  color:white;
+  font-size:20px;
+  font-family: 'Goldman', cursive;
+}
+
+.event-desc{
+margin-left:20px;
+font-family: 'Nunito', sans-serif;
+}
+
+
+
+.commendations{
+margin-top: 2px;
+background:black;
+}
+
+.comments{
+background:black;
+color:white;
+
+}
+
+
+.img-comments{
+height:280px;
+width:280px;
+border-radius: 50%;
+border:7px solid #1f1f1f;
+margin:15px auto;
+}
+
+.comment-name{
+text-align:center;
+font-family: 'Bebas Neue', cursive;
+text-transform: capitalize;
+}
+
+.comment-professsion{
+text-align:center;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.comment-feedback{
+text-align:center;
+color:white;
+font-family: 'Shadows Into Light', cursive;
+margin-top:10px;
+}
+
+.fa-level-up{
+  color:green;
+  font-size: 25px;
+}
+
+.find-property{
+background:black;
+color:white;
+font-family:'Roboto Condensed', sans-serif;
+}
+
+.find-property-btns{
+border:2px solid #098bd6;
+background:black;
+color:white;
+border-radius:5px;
+padding:10px 20px;
+}
+
+
+.buy-box{
+  border:5px solid white;
+  padding:20px;
+  background:black;
+}
+
+
+.search-btn{
+background:#4BB871;
+color:white;
+}
+
+
+input[type=range]{
+  color:red !important;
+  background:red;
+  height:20px;
+}
+
+.app-names{
+  font-size:7px;
+  font-family: sans-serif;
+  margin-left:5px;
+}
+
+
+.select-options{
+  border:5px solid white;
+  background:black;
+  font-size:25px;
+}
+
+
+.price-range{
+  background:black;
+}
+
+
+.search-property-btn{
+background:#4BB871;
+color:white;
+padding:10px 15px;
+border-radius:5px;
+outline:none;
+}
+
+.search-property-btn:hover{
+background:#4BB871;
+color:white;
+padding:10px 15px;
+border-radius:5px;
+outline:none;
+}
+
+.footer{
+  margin-top: 5px;
+  background:black;
+  padding:45px 0px;
+}
+
+.social-media-icons{
+color:#4BB871;
+}
+
+.footer-headings{
+  color:white;
+  font-weight:bold;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.explore-headings{
+  font-size:14px;
+  color:white;
+  border-bottom:1px solid #4BB871;
+  font-family:sans-serif;
+  padding-bottom:5px;
+}
+
+.footer-links{
+  font-size:14px;
+  color:gray;
+  font-family:sans-serif;
+  cursor: pointer;
+}
+
+.footer-links:hover{
+  font-size:14px;
+  color:white;
+  cursor: pointer;
+  font-family:sans-serif;
+}
+
+
+
+
+.app-icons{
+  color:white;
+  font-family: sans-serif;
+  margin-right:20px;
+}
+
+.app-name{
+  color:white;
+  font-size:10px;
+  font-family:sans-serif;
+  margin-top:12px;
+}
+
+.social-icons{
+  color:#098bd6;
+}
+
+.footer-branding{
+border-top:1px solid #098bd6;
+background:black;
+padding:25px 10px;
+}
+
+.concept{
+  color:white;
+  font-size:30px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.name{
+  color:#4BB871;
+  font-size: 30px;
+  font-family: 'Goldman', cursive;
+  margin-left:10px;
+}
+
+.find-property-bar{
+  box-shadow: 0px 0px 38px 3px rgba(75,184,113,1);
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+@media screen and (max-width: 700px){
+  .btn-box {flex-direction:column;align-content: center;}
+  .enq-btns{margin-top:10px;padding:2px 35px;align-self: center;}
+  .brand-first-letters{font-size: 2rem;margin-left:5px;}
+  .brand-remain-letter{margin-left:1px;color:#4BB871;font-size:15px;}
+  .logo-realtors{font-size: 2rem;margin-left:5px;}
+  .tagline{font-size:8px;}
+  .navbar-brand{margin-right:200px;}
+  .footer{flex-direction:column;text-align:center;}
+  .explore-headings{border:0px;}
+  .app{display:flex;justify-content: center;}
+  .social-icons{margin:10px auto;}
+  .info-txts{font-size: 10px;}
+}

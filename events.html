@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L.A.C Realtors - Events</title>
+    <link rel="icon" href="img/lac.png">
+    <link href="css\bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css\ccss.css" rel="stylesheet" type="text/css">
+    <link href="css\slick-theme.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@700&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sahitya:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Federant&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Peddana&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+
+          <div class="container-fluid d-flex flex-row border justify-content-around align-items-center infostrip">
+
+              <div class="text-center info-txts"><i class="fa fa-phone info-strip-icons" aria-hidden="true"></i>+44-09876543210</div>
+              <div class="text-center info-txts"><i class="fa fa-envelope info-strip-icons" aria-hidden="true"></i>info@lac.realtors.com</div>
+              <div class="text-center info-txts"><i class="fa fa-map-marker info-strip-icons" aria-hidden="true"></i>L.A.C Manor, East London, United Kingdom.</div>
+         </div>
+
+          <div class="container-fluid">
+
+             <nav class="navbar navbar-default navbar-expand-sm fixed-top" id="navbar">
+                        <!-- Brand/logo -->
+                        <a class="navbar-brand" href="#">
+                          <a class="nav-link" href="#" id="logo"><span class="brand-first-letters">L</span><span class="brand-remain-letter">ord</span><span class="brand-first-letters">A</span><span class="brand-remain-letter">lbert</span><span class="brand-first-letters">C</span><span class="brand-remain-letter">admael</span><span class="logo-realtors">Real Estates</span><span class="tagline">Since 1845</span></a>
+                        <!-- Links -->
+                        <ul class="navbar-nav collapse navbar-collapse ml-auto d-xs-none" id="menu">
+                          <li class="nav-item">
+                            <a class="nav-link links" href="listings.html">Listings</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link links" href="events.html">Events</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link links" href="index.html">About</a>
+                          </li>
+                        </ul>
+                        <ul class="navbar-nav menu-btn">
+                          <li class="nav-item">
+                            <a class="nav-link d-lg-none d-xl-none d-md-none" href="#" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu" onclick="openNav()" class="navbar-toggler", data-toggle="collapse" data-target="#menu">
+                              <svg width="40" height="35" viewBox="0 0 100 100">
+                                <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                                <path class="line line2" d="M 20,50 H 80" />
+                                <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                           </a>
+                          </li>
+                        </ul>
+            </nav>
+      </div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="events-container">
+  <div class="row" id="rowborder">
+  <div class="col-3" id="event-tab-pills">
+    <div class="nav flex-column align-content-stretch text-center text-white nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+      <a class="nav-link active" id="realEstate-tab" data-toggle="pill" href="#realEstate" role="tab" aria-controls="realEstate" aria-selected="true">Real Estate</a>
+      <a class="nav-link" id="agricultureFarms-tab" data-toggle="pill" href="#agricultureFarms" role="tab" aria-controls="agricultureFarms" aria-selected="false">Agriculture Fields</a>
+      <a class="nav-link" id="wineYards-tab" data-toggle="pill" href="#wineYards" role="tab" aria-controls="wineYards" aria-selected="false">Wine Yards</a>
+      <a class="nav-link" id="studFarms-tab" data-toggle="pill" href="#studFarms" role="tab" aria-controls="Studfarms" aria-selected="false">Stud Farms</a>
+      <a class="nav-link" id="shootingGrounds-tab" data-toggle="pill" href="#shootingGrounds" role="tab" aria-controls="shootingGrounds" aria-selected="false">Shooting Grounds</a>
+
+    </div>
+  </div>
+
+  <div class="col-9">
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="realEstate" role="tabpanel" aria-labelledby="realEstate-tab">
+        <div class="events-div-blocks">
+          <h4 class="event-section-heading">Real Estates</h4>
+          <div class="d-flex justify-content-between">
+          <h6 class="events-title">Auction of Beach Side Mansion.</h6><h6 class="event-date" id="eventDateWeek"></h6>
+          </div>
+          <div class="d-flex justify-content-around">
+            <img src="img/celi-h1.jpg" class="img-fluid event-imgs" height="500px" width="500px"/>
+            <p class="event-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+
+           <div class="d-flex justify-content-end">
+            <a href="#" class="btn events-alert-btns ">Participate</a>
+           </div>
+        </div>
+
+        <div class="events-div-blocks">
+
+          <div class="d-flex justify-content-between">
+          <h6 class="events-title">A Villa high hills for Sale.</h6><h6 class="event-date" id="eventDateMonth"></h6>
+          </div>
+          <div class="d-flex justify-content-between">
+            <img src="img/celi-h2.jpg" class="img-fluid event-imgs" height="500px" width="500px"/>
+          <p class="event-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+           <div class="d-flex justify-content-end">
+            <a href="#" class="btn events-alert-btns ">Participate</a>
+           </div>
+        </div>
+
+        <div class="events-div-blocks">
+
+          <div class="d-flex justify-content-between">
+          <h6 class="events-title">Spanish Themed luxury house for Sale.</h6><h6 class="event-date" id="eventDateHalfYear"></h6>
+          </div>
+          <div class="d-flex justify-content-between">
+            <img src="img/celi-h3.jpg" class="img-fluid event-imgs" height="500px" width="500px"/>
+            <p class="event-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+           <div class="d-flex justify-content-end">
+            <a href="#" class="btn events-alert-btns ">Participate</a>
+           </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="agricultureFarms" role="tabpanel" aria-labelledby="agricultureFarms-tab">
+        <div class="events-div-blocks">
+          <h4 class="event-section-heading">Agriculture Fields</h4>
+          <div class="d-flex justify-content-between">
+          <h6 class="events-title">150 Acres of tea Plantation on lease.</h6><h6 class="event-date" id="agrieventDateWeek"></h6>
+          </div>
+          <div class="d-flex justify-content-between">
+            <img src="img/agri1.jpg" class="img-fluid event-imgs" height="500px" width="500px"/>
+           <p class="event-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+           <div class="d-flex justify-content-end">
+            <a href="#" class="btn events-alert-btns ">Participate</a>
+           </div>
+        </div>
+
+        <div class="events-div-blocks">
+
+          <div class="d-flex justify-content-between">
+          <h6 class="events-title">Flower farms for sale.</h6><h6 class="event-date" id="agrieventDateMonth"></h6>
+          </div>
+          <div class="d-flex justify-content-between">
+            <img src="img/agri2.jpg" class="img-fluid event-imgs" height="500px" width="500px"/>
+          <p class="event-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+           <div class="d-flex justify-content-end">
+            <a href="#" class="btn events-alert-btns ">Participate</a>
+           </div>
+        </div>
+
+        <div class="events-div-blocks">
+
+          <div class="d-flex justify-content-between">
+          <h6 class="events-title">High-brid Saffron Farm for sale.</h6><h6 class="event-date" id="agrieventDateHalfYear"></h6>
+          </div>
+          <div class="d-flex justify-content-between">
+            <img src="img/agri3.jpg" class="img-fluid event-imgs" height="500px" width="500px"/>
+            <p class="event-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+           <div class="d-flex justify-content-end">
+            <a href="#" class="btn events-alert-btns ">Participate</a>
+           </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="wineYards" role="tabpanel" aria-labelledby="wineYards-tab">
+        <div class="events-div-blocks">
+          <h4 class="event-section-heading">Wine Yards</h4>
+          <div class="d-flex justify-content-between">
+          <h6 class="events-title">Fresh Wine this Year</h6><h6 class="event-date" id="wineeventDateWeek"></h6>
+          </div>
+          <div class="d-flex justify-content-between">
+            <img src="img/wine1.jpg" class="img-fluid event-imgs" height="500px" width="500px"/>
+            <p class="event-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+           <div class="d-flex justify-content-end">
+            <a href="#" class="btn events-alert-btns ">Participate</a>
+           </div>
+        </div>
+
+        <div class="events-div-blocks">
+
+          <div class="d-flex justify-content-between">
+          <h6 class="events-title">Bumper wine crops this season.</h6><h6 class="event-date" id="wineeventDateMonth"></h6>
+          </div>
+          <div class="d-flex justify-content-between">
+            <img src="img/wine2.jpg" class="img-fluid event-imgs" height="500px" width="500px"/>
+            <p class="event-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+           <div class="d-flex justify-content-end">
+            <a href="#" class="btn events-alert-btns ">Participate</a>
+           </div>
+        </div>
+
+        <div class="events-div-blocks">
+
+          <div class="d-flex justify-content-between">
+          <h6 class="events-title">Wine Barrels for Sale</h6><h6 class="event-date" id="wineeventDateHalfYear"></h6>
+          </div>
+          <div class="d-flex justify-content-between">
+            <img src="img/wine3.jpg" class="img-fluid event-imgs" height="500px" width="500px"/>
+            <p class="event-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+           <div class="d-flex justify-content-end">
+            <a href="#" class="btn events-alert-btns ">Participate</a>
+           </div>
+        </div>
+      </div>
+
+
+      <div class="tab-pane fade" id="studFarms" role="tabpanel" aria-labelledby="studFarms-tab">
+        <div class="events-div-blocks">
+          <h4 class="event-section-heading">Stud Farms</h4>
+          <div class="d-flex justify-content-between">
+          <h6 class="events-title">Horse Race this Week.</h6><h6 class="event-date" id="studeventDateWeek"></h6>
+          </div>
+          <div class="d-flex justify-content-between">
+            <img src="img/stud1.jpg" class="img-fluid event-imgs" height="500px" width="500px"/>
+            <p class="event-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+           <div class="d-flex justify-content-end">
+            <a href="#" class="btn events-alert-btns ">Participate</a>
+           </div>
+        </div>
+
+        <div class="events-div-blocks">
+
+          <div class="d-flex justify-content-between">
+          <h6 class="events-title">Top Breed Horses at farm</h6><h6 class="event-date" id="studeventDateMonth"></h6>
+          </div>
+          <div class="d-flex justify-content-between">
+            <img src="img/stud2.jpg" class="img-fluid event-imgs" height="500px" width="500px"/>
+            <p class="event-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         </div>
+            <div class="d-flex justify-content-end">
+            <a href="#" class="btn events-alert-btns ">Participate</a>
+           </div>
+        </div>
+
+        <div class="events-div-blocks">
+
+          <div class="d-flex justify-content-between">
+          <h6 class="events-title">Excellent Breed Foals for Sale</h6><h6 class="event-date" id="studeventDateHalfYear"></h6>
+          </div>
+          <div class="d-flex justify-content-between">
+            <img src="img/stud3.jpg" class="img-fluid event-imgs" height="500px" width="500px"/>
+            <p class="event-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+           <div class="d-flex justify-content-end">
+            <a href="#" class="btn events-alert-btns ">Participate</a>
+           </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="shootingGrounds" role="tabpanel" aria-labelledby="shootingGrounds-tab">
+        <div class="events-div-blocks">
+          <h4 class="event-section-heading">Shooting Grounds</h4>
+          <div class="d-flex justify-content-between">
+          <h6 class="events-title">Shooting range will Upgrade Tech.</h6><h6 class="event-date" id="shoteventDateWeek"></h6>
+          </div>
+          <div class="d-flex justify-content-between">
+            <img src="img/shot1.jpg" class="img-fluid event-imgs" height="500px" width="500px"/>
+            <p class="event-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+            <div class="d-flex justify-content-end">
+            <a href="#" class="btn events-alert-btns ">Participate</a>
+           </div>
+        </div>
+
+        <div class="events-div-blocks">
+
+          <div class="d-flex justify-content-between">
+          <h6 class="events-title">Finest italain Gun collection fair at Shooting Range.</h6><h6 class="event-date" id="shoteventDateMonth"></h6>
+          </div>
+          <div class="d-flex justify-content-between">
+            <img src="img/shot2.jpg" class="img-fluid event-imgs" height="500px" width="500px"/>
+            <p class="event-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+           <div class="d-flex justify-content-end">
+            <a href="#" class="btn events-alert-btns ">Participate</a>
+           </div>
+        </div>
+
+        <div class="events-div-blocks">
+
+          <div class="d-flex justify-content-between">
+          <h6 class="events-title">Champion Hunter Dogs compition. Prize 10000 Pounds.</h6><h6 class="event-date" id="shoteventDateHalfYear"></h6>
+          </div>
+          <div class="d-flex justify-content-between">
+            <img src="img/shot3.jpg" class="img-fluid event-imgs" height="500px" width="500px"/>
+            <p class="event-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+           <div class="d-flex justify-content-end">
+            <a href="#" class="btn events-alert-btns ">Participate</a>
+           </div>
+        </div>
+      </div>
+    </div>
+   </div>
+ </div>
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+  <!-- footer starts from here -->
+
+  <div class="container-fluid footer">
+    <div class="container-fluid d-flex justify-content-around footer">
+  <div class="d-flex flex-column">
+  <p class="footer-headings">Explore</p>
+  <p class="explore-headings">Villa 360<sup style="margin-left:3px;">o</sup></p>
+  <p class="explore-headings">House 360<sup style="margin-left:3px;">o</sup></p>
+  <p class="explore-headings">Wine Yards 360<sup style="margin-left:3px;">o</sup></p>
+  <p class="explore-headings">Stud Farms 360<sup style="margin-left:3px;">o</sup></p>
+  <p class="explore-headings">Shooting Ground 360<sup style="margin-left:3px;">o</sup></p>
+  <p class="footer-headings mt-4">Follow Us</p>
+  <div class="d-flex justify-content-between social-icons" style="width:200px;">
+    <i class="fa fa-facebook-square fa-2x social-icons" aria-hidden="true"></i>
+    <i class="fa fa-instagram fa-2x social-icons" aria-hidden="true"></i>
+    <i class="fa fa-twitter-square fa-2x social-icons" aria-hidden="true"></i>
+    <i class="fa fa-linkedin-square fa-2x social-icons" aria-hidden="true"></i>
+    <i class="fa fa-youtube-play fa-2x social-icons" aria-hidden="true"></i>
+  </div>
+  </div>
+
+  <div class="d-flex flex-column justify-content-between">
+    <p class="footer-headings">Overview</p>
+    <p class="footer-links">About</p>
+    <p class="footer-links">Careers</p>
+    <p class="footer-links">Press</p>
+    <p class="footer-links">Contact</p>
+    <p class="footer-headings mt-5">Terms of Use</p>
+    <p class="footer-links">Privacy Policy</p>
+    <p class="footer-links">Global Sitemap</p>
+    <p class="footer-links">Local Sitemap</p>
+  </div>
+  <div class="d-flex flex-column">
+  <p class="footer-headings">Community</p>
+  <p class="footer-links">Blog</p>
+  <p class="footer-links">Support</p>
+  <p class="footer-links">Help</p>
+  <p class="footer-headings mt-5">Licensing</p>
+  <p class="footer-links">Real Estate</p>
+  <p class="footer-links">Wine Making</p>
+  <p class="footer-links">Stud Farm</p>
+  <p class="footer-links">Shooting Grounds</p>
+  </div>
+  <div class="d-flex flex-column">
+  <p class="footer-headings">LAC. App</p>
+  <div class="d-flex flex-row justify-content-around text-white">
+  <i class="fa fa-apple fa-2x" aria-hidden="true"><span class="app-names">App Store</span></i><i class="fa fa-play fa-2x" aria-hidden="true"><span class="app-names">Play Store</span></i>
+  </div>
+  <p class="app-name">LAC Realtors</p>
+  <div class="d-flex flex-column mt-5">
+    <p class="footer-headings">Donate</p>
+    <p class="footer-links">LAC Hospital</p>
+    <p class="footer-links">Marry's Elementry School</p>
+    <p class="footer-links">Earth Sanctuary</p>
+  </div>
+  </div>
+
+  </div>
+  </div>
+  <div class="container-fluid text-center text-white footer-branding">
+  <span class="concept">Concept:</span><span class="name">Navjot Sohal</span>
+  </div>
+
+
+  <!-- footer ends here -->
+
+
+
+
+
+
+
+      <!-- Side Nav starts from here-->
+
+             <div id="mySidenav" class="sidenav">
+                             <div class="accordion-container">
+                               <a class="closebtn" id="closeb" onclick="closeNav()">&times;</a>
+                             <div id="accordion">
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                         <i class="fa fa-user-o fa-lg side-menu-icons" aria-hidden="true" onclick="openNav()"></i><span class="accordion-main-headings">Profile</span>
+                        </a>
+                      </div>
+                      <div id="collapseOne" class="collapse side-nav-child-elements" data-parent="#accordion">
+                        <div class="card-body">
+                          <span class="accordion-main-headings">Modify Profile</span>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="card">
+                      <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                        <i class="fa fa-list fa-lg side-menu-icons" aria-hidden="true" onclick="openNav()"></i><span class="accordion-main-headings">Collections</span>
+                        </a>
+                      </div>
+                      <div id="collapseTwo" class="collapse side-nav-child-elements" data-parent="#accordion">
+                        <div class="card-body">
+                          <span class="accordion-main-headings">Manage Collection</span>
+                         </div>
+                       </div>
+                     </div>
+                   <div class="card">
+                       <div class="card-header">
+                         <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                           <i class="fa fa-envelope-o fa-lg side-menu-icons" aria-hidden="true" onclick="openNav()"></i><span class="accordion-main-headings">Messages</span>
+                         </a>
+                       </div>
+                       <div id="collapseThree" class="collapse side-nav-child-elements" data-parent="#accordion">
+                         <div class="card-body">
+                           <span class="accordion-main-headings">Inbox</span>
+                           <span class="accordion-main-headings">Send</span>
+                         </div>
+                       </div>
+                     </div>
+                    <div class="card">
+                       <div class="card-header">
+                         <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                           <i class="fa fa-question-circle fa-lg side-menu-icons" aria-hidden="true" onclick="openNav()"></i><span class="accordion-main-headings">Support</span>
+                         </a>
+                       </div>
+                       <div id="collapseFour" class="collapse side-nav-child-elements" data-parent="#accordion">
+                         <div class="card-body">
+                         <span class="accordion-main-headings">Raise Issue</span>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+
+
+       <!-- Side Nav ends here-->
+
+
+
+
+
+
+
+
+      <script src="js/jquery.min.js" type="text/javaScript"></script>
+      <script src="js/bootstrap.js" type="text/javaScript"></script>
+      <script src="js/aos.js" type="text/javascript"></script>
+      <script src="js/slick.js" type="text/javascript"></script>
+      <script type="text/javascript" src="js/slick.min.js"></script>
+
+
+      <script>
+        AOS.init();
+      </script>
+
+      <script>
+
+                 function openNav() {
+                   document.getElementById("mySidenav").style.width = "250px";
+                   document.body.style.backgroundColor = "rgba(0,0,0,0.7)";
+                   document.getElementById("closeb").style.color = "red";
+
+                 }
+
+                 /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+                 function closeNav() {
+                   document.getElementById("mySidenav").style.width = "50px";
+                   document.body.style.backgroundColor = "#111";
+                   document.getElementsByClassName("accordion-main-headings").display ="none";
+                   document.getElementById("closeb").style.color = "#111";
+                   document.body.style.backgroundColor = "#1f1f1f1";
+                 }
+
+      </script>
+
+      <script>
+
+                 window.onscroll = function() {scrollFunction()};
+
+                 function scrollFunction() {
+                   if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+                     document.getElementById("logo").style.paddingBottom = "0px";
+                     document.getElementById("logo").style.paddingTop = "0px";
+                     document.getElementById("navbar").style.top = "0";
+
+
+                   } else {
+                     document.getElementById("logo").style.paddingTop = "5px";
+                     document.getElementById("logo").style.paddingBottom = "5px";
+                     document.getElementById("navbar").style.top = "35px";
+
+
+                   }
+                 }
+
+
+      </script>
+
+      <script>
+
+  // for week real estate date
+
+      var oneDate = new Date();
+      var numberOfDaysToAdd = 7;
+      oneDate.setDate(oneDate.getDate() + numberOfDaysToAdd);
+      var dd = oneDate.getDate();
+      var mm = oneDate.getMonth() + 1;
+      var y = oneDate.getFullYear();
+      var someFormattedDate ='Event Date:      '+ dd + '-'+ mm + '-'+ y;
+      document.getElementById("eventDateWeek").innerHTML = someFormattedDate;
+
+// for month date
+
+        var someDate = new Date();
+        var numberOfDaysToAdd = 30;
+        someDate.setDate(someDate.getDate() + numberOfDaysToAdd);
+        var dd = someDate.getDate();
+        var mm = someDate.getMonth() + 1;
+        var y = someDate.getFullYear();
+        var someFormattedDate ='Event Date:      '+ dd + '-'+ mm + '-'+ y;
+        document.getElementById("eventDateMonth").innerHTML = someFormattedDate;
+
+
+// for half Yearly
+
+        var someDate = new Date();
+        var numberOfDaysToAdd = 180;
+        someDate.setDate(someDate.getDate() + numberOfDaysToAdd);
+        var dd = someDate.getDate();
+        var mm = someDate.getMonth() + 1;
+        var y = someDate.getFullYear();
+        var someFormattedDate ='Event Date:      '+ dd + '-'+ mm + '-'+ y;
+        document.getElementById("eventDateHalfYear").innerHTML = someFormattedDate;
+
+
+// for agricultureFarms dates weekly
+
+        var oneDate = new Date();
+        var numberOfDaysToAdd = 10;
+        oneDate.setDate(oneDate.getDate() + numberOfDaysToAdd);
+        var dd = oneDate.getDate();
+        var mm = oneDate.getMonth() + 1;
+        var y = oneDate.getFullYear();
+        var someFormattedDate ='Event Date:      '+ dd + '-'+ mm + '-'+ y;
+        document.getElementById("agrieventDateWeek").innerHTML = someFormattedDate;
+
+  // for month date
+
+          var someDate = new Date();
+          var numberOfDaysToAdd = 35;
+          someDate.setDate(someDate.getDate() + numberOfDaysToAdd);
+          var dd = someDate.getDate();
+          var mm = someDate.getMonth() + 1;
+          var y = someDate.getFullYear();
+          var someFormattedDate ='Event Date:      '+ dd + '-'+ mm + '-'+ y;
+          document.getElementById("agrieventDateMonth").innerHTML = someFormattedDate;
+
+
+  // for half Yearly
+
+          var someDate = new Date();
+          var numberOfDaysToAdd = 120;
+          someDate.setDate(someDate.getDate() + numberOfDaysToAdd);
+          var dd = someDate.getDate();
+          var mm = someDate.getMonth() + 1;
+          var y = someDate.getFullYear();
+          var someFormattedDate ='Event Date:      '+ dd + '-'+ mm + '-'+ y;
+          document.getElementById("agrieventDateHalfYear").innerHTML = someFormattedDate;
+
+
+
+          // for wineyards dates weekly
+
+                  var oneDate = new Date();
+                  var numberOfDaysToAdd = 12;
+                  oneDate.setDate(oneDate.getDate() + numberOfDaysToAdd);
+                  var dd = oneDate.getDate();
+                  var mm = oneDate.getMonth() + 1;
+                  var y = oneDate.getFullYear();
+                  var someFormattedDate ='Event Date:      '+ dd + '-'+ mm + '-'+ y;
+                  document.getElementById("wineeventDateWeek").innerHTML = someFormattedDate;
+
+            // for month date
+
+                    var someDate = new Date();
+                    var numberOfDaysToAdd = 65;
+                    someDate.setDate(someDate.getDate() + numberOfDaysToAdd);
+                    var dd = someDate.getDate();
+                    var mm = someDate.getMonth() + 1;
+                    var y = someDate.getFullYear();
+                    var someFormattedDate ='Event Date:      '+ dd + '-'+ mm + '-'+ y;
+                    document.getElementById("wineeventDateMonth").innerHTML = someFormattedDate;
+
+
+            // for half Yearly
+
+                    var someDate = new Date();
+                    var numberOfDaysToAdd = 130;
+                    someDate.setDate(someDate.getDate() + numberOfDaysToAdd);
+                    var dd = someDate.getDate();
+                    var mm = someDate.getMonth() + 1;
+                    var y = someDate.getFullYear();
+                    var someFormattedDate ='Event Date:      '+ dd + '-'+ mm + '-'+ y;
+                    document.getElementById("wineeventDateHalfYear").innerHTML = someFormattedDate;
+
+
+                    // for Stud farms dates weekly
+
+                            var oneDate = new Date();
+                            var numberOfDaysToAdd = 8;
+                            oneDate.setDate(oneDate.getDate() + numberOfDaysToAdd);
+                            var dd = oneDate.getDate();
+                            var mm = oneDate.getMonth() + 1;
+                            var y = oneDate.getFullYear();
+                            var someFormattedDate ='Event Date:      '+ dd + '-'+ mm + '-'+ y;
+                            document.getElementById("studeventDateWeek").innerHTML = someFormattedDate;
+
+                      // for month date
+
+                              var someDate = new Date();
+                              var numberOfDaysToAdd = 45;
+                              someDate.setDate(someDate.getDate() + numberOfDaysToAdd);
+                              var dd = someDate.getDate();
+                              var mm = someDate.getMonth() + 1;
+                              var y = someDate.getFullYear();
+                              var someFormattedDate ='Event Date:      '+ dd + '-'+ mm + '-'+ y;
+                              document.getElementById("studeventDateMonth").innerHTML = someFormattedDate;
+
+
+                      // for half Yearly
+
+                              var someDate = new Date();
+                              var numberOfDaysToAdd = 128;
+                              someDate.setDate(someDate.getDate() + numberOfDaysToAdd);
+                              var dd = someDate.getDate();
+                              var mm = someDate.getMonth() + 1;
+                              var y = someDate.getFullYear();
+                              var someFormattedDate ='Event Date:      '+ dd + '-'+ mm + '-'+ y;
+                              document.getElementById("studeventDateHalfYear").innerHTML = someFormattedDate;
+
+
+                              // for shooting Grounds dates weekly
+
+                                      var oneDate = new Date();
+                                      var numberOfDaysToAdd = 13;
+                                      oneDate.setDate(oneDate.getDate() + numberOfDaysToAdd);
+                                      var dd = oneDate.getDate();
+                                      var mm = oneDate.getMonth() + 1;
+                                      var y = oneDate.getFullYear();
+                                      var someFormattedDate ='Event Date:      '+ dd + '-'+ mm + '-'+ y;
+                                      document.getElementById("shoteventDateWeek").innerHTML = someFormattedDate;
+
+                                // for month date
+
+                                        var someDate = new Date();
+                                        var numberOfDaysToAdd = 25;
+                                        someDate.setDate(someDate.getDate() + numberOfDaysToAdd);
+                                        var dd = someDate.getDate();
+                                        var mm = someDate.getMonth() + 1;
+                                        var y = someDate.getFullYear();
+                                        var someFormattedDate ='Event Date:      '+ dd + '-'+ mm + '-'+ y;
+                                        document.getElementById("shoteventDateMonth").innerHTML = someFormattedDate;
+
+
+                                // for half Yearly
+
+                                        var someDate = new Date();
+                                        var numberOfDaysToAdd = 40;
+                                        someDate.setDate(someDate.getDate() + numberOfDaysToAdd);
+                                        var dd = someDate.getDate();
+                                        var mm = someDate.getMonth() + 1;
+                                        var y = someDate.getFullYear();
+                                        var someFormattedDate ='Event Date:      '+ dd + '-'+ mm + '-'+ y;
+                                        document.getElementById("shoteventDateHalfYear").innerHTML = someFormattedDate;
+
+
+
+
+
+
+      </script>
+
+        </body>
+      </html>
